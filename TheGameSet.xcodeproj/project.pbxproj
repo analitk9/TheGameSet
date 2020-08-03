@@ -13,6 +13,8 @@
 		64336A4424D80CDE008ECD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64336A4324D80CDE008ECD8D /* Assets.xcassets */; };
 		64336A4724D80CDE008ECD8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64336A4624D80CDE008ECD8D /* Preview Assets.xcassets */; };
 		64336A4A24D80CDE008ECD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64336A4824D80CDE008ECD8D /* LaunchScreen.storyboard */; };
+		64336A5224D8149D008ECD8D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64336A5124D8149D008ECD8D /* Card.swift */; };
+		64336A5424D8174E008ECD8D /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64336A5324D8174E008ECD8D /* CardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		64336A4624D80CDE008ECD8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64336A4924D80CDE008ECD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64336A4B24D80CDE008ECD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64336A5124D8149D008ECD8D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		64336A5324D8174E008ECD8D /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		64336A3C24D80CD8008ECD8D /* TheGameSet */ = {
 			isa = PBXGroup;
 			children = (
+				64336A5124D8149D008ECD8D /* Card.swift */,
+				64336A5324D8174E008ECD8D /* CardDeck.swift */,
 				64336A3D24D80CD8008ECD8D /* AppDelegate.swift */,
 				64336A3F24D80CD8008ECD8D /* SceneDelegate.swift */,
 				64336A4124D80CD9008ECD8D /* ContentView.swift */,
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				64336A3E24D80CD8008ECD8D /* AppDelegate.swift in Sources */,
+				64336A5424D8174E008ECD8D /* CardDeck.swift in Sources */,
 				64336A4024D80CD9008ECD8D /* SceneDelegate.swift in Sources */,
 				64336A4224D80CD9008ECD8D /* ContentView.swift in Sources */,
+				64336A5224D8149D008ECD8D /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
